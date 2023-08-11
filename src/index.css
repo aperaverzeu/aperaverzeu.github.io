@@ -9,11 +9,11 @@ body {
 }
 
 .skill {
-    @apply p-3 text-center rounded-2xl border border-stone-50 shadow backdrop-blur-sm font-medium;
+    @apply p-2.5 text-center rounded-2xl border border-stone-50 lg:hover:bg-stone-50 lg:hover:text-[#2964C2] shadow backdrop-blur-sm font-medium;
 }
 
 .skill-link {
-    @apply p-2.5 text-center rounded-2xl border border-stone-50 shadow backdrop-blur-sm font-medium;
+    @apply p-1.5 text-center rounded-2xl border border-stone-50 shadow backdrop-blur-sm font-medium;
 }
 
 .job {
@@ -21,5 +21,5 @@ body {
 }
 
 .heading {
-    @apply text-2xl font-semibold my-8;
+    @apply text-2xl font-semibold my-6;
 }
