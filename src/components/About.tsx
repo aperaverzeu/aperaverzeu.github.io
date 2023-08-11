@@ -1,9 +1,9 @@
 export default function About() {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col lg:w-[62.5rem]">
             <p className="heading">About</p>
-            <div className="flex flex-col space-y-6 text-justify">
-                <div className="flex flex-col space-y-3">
+            <div className="flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-20 text-justify">
+                <div className="flex flex-col space-y-3 lg:space-y-10 lg:w-[28rem]">
                     <p>
                         I like cycling, enjoy creating music and writing science-like article.
                     </p>
@@ -12,7 +12,7 @@ export default function About() {
                         Polish, Czech, Ukrainian and I wanna learn Chinese, and German.
                     </p>
                 </div>
-                <div className="flex flex-col space-y-3">
+                <div className="flex flex-col space-y-3 lg:w-[28rem]">
                     <p>
                         I have been participating in university volunteering movement, where
                         I was a teacher of CS and Java for freshmen.

@@ -5,21 +5,25 @@
 @tailwind utilities;
 
 body {
-    @apply flex flex-col justify-center items-center p-8 bg-[#2964C2] text-stone-50 font-normal text-sm;
+    @apply flex flex-col justify-center items-center p-8 bg-[#2964C2] text-stone-50 font-normal text-sm lg:text-xl;
+}
+
+.app {
+    @apply w-80 lg:w-[62.5rem];
 }
 
 .skill {
-    @apply p-2.5 text-center rounded-2xl border border-stone-50 lg:hover:bg-stone-50 lg:hover:text-[#2964C2] shadow backdrop-blur-sm font-medium;
+    @apply p-2.5 text-center rounded-2xl border border-stone-50 lg:hover:bg-stone-50 lg:hover:text-[#2964C2] shadow backdrop-blur-sm font-medium lg:font-normal;
 }
 
 .skill-link {
-    @apply p-1.5 text-center rounded-2xl border border-stone-50 shadow backdrop-blur-sm font-medium;
+    @apply p-1.5 lg:p-2 text-center rounded-2xl border border-stone-50 shadow backdrop-blur-sm font-medium lg:font-normal;
 }
 
 .job {
-    @apply flex flex-col space-y-2 p-3 rounded-2xl border border-stone-50 shadow backdrop-blur-sm font-normal text-xs;
+    @apply flex flex-col space-y-2 lg:space-y-4 p-3 lg:p-10 lg:w-[50rem] rounded-2xl border border-stone-50 shadow backdrop-blur-sm font-normal text-xs lg:text-xl;
 }
 
 .heading {
-    @apply text-2xl font-semibold my-6;
+    @apply text-2xl lg:text-[2.5rem] font-semibold my-6 lg:my-16;
 }

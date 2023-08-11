@@ -2,11 +2,11 @@ export default function Job() {
     return (
         <div className="flex flex-col">
             <p className="heading">Job Experience</p>
-            <div className="flex flex-col space-y-4">
+            <div className="flex flex-col space-y-4 lg:space-y-12">
                 <div className="job">
                     <div className="flex flex-row justify-between">
-                        <p className="self-center text-xl font-medium">ObjectStyle, LLC.</p>
-                        <p className="self-center">10.2022 - present</p>
+                        <p className="self-center text-xl lg:text-4xl font-medium">ObjectStyle, LLC.</p>
+                        <p className="self-center lg:text-2xl">10.2022 - present</p>
                     </div>
                     <p>Java Software Engineer</p>
                     <p className="text-justify">
@@ -18,8 +18,8 @@ export default function Job() {
                 </div>
                 <div className="job">
                     <div className="flex flex-row justify-between">
-                        <p className="self-center text-xl font-medium">EIS, LTD.</p>
-                        <p className="self-center">08.2021 - 06.2022</p>
+                        <p className="self-center text-xl lg:text-4xl font-medium">EIS, LTD.</p>
+                        <p className="self-center lg:text-2xl">08.2021 - 06.2022</p>
                     </div>
                     <p>Junior Java Developer</p>
                     <p className="text-justify">

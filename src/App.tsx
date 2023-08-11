@@ -6,7 +6,7 @@ import Contacts from "./components/Contacts.tsx";
 
 export default function App() {
     return (
-        <div className="w-80 lg:w-[56.25rem]">
+        <div className="app">
             <Header/>
             <Skills/>
             <Job/>
