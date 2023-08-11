@@ -27,3 +27,7 @@ body {
 .heading {
     @apply text-2xl lg:text-[2.5rem] font-semibold my-6 lg:my-16;
 }
+
+.heading-contacts {
+    @apply text-2xl lg:text-[2.5rem] font-semibold mt-6 lg:mt-16 lg:mb-2;
+}
