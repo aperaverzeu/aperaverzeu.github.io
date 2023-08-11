@@ -1,27 +1,13 @@
-# React + TypeScript + Vite
+# Hi there 👋🏻
+### Personal website – aperaverzeu.github.io
+#### or click the [link](https://aperaverzeu.github.io/) right here
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I'm Java software engineer. As a web backend developer, I specialize in Java 11/17 LTS and the Spring Ecosystem, which includes Spring MVC, Data, Security, Cloud, and WebFlux.
 
-Currently, two official plugins are available:
+I have worked with Git, Docker and Kubernetes, Apache Kafka, Postgres, and Apache Cassandra.
+My experience covers AWS and GCP, CI/CD workflows, ELK stack, and Angular/Next.js fundamentals.
+I like to read about Design Patterns and System Design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I am interested in Project Management techniques and would like to learn more about Scrum or Agile Leadership. In addition, I like data analysis and hope to learn Scala or Python in the future. I enjoy participating in cultural events and writing science-related articles in my free time.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Feel free to send me a message on [LinkedIn](https://www.linkedin.com/in/aperaverzeu/) or via email at aperaverzeu@gmail.com
