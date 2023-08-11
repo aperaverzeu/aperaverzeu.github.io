@@ -13,10 +13,11 @@ export default function Skills() {
                 <p className="skill col-span-4 lg:col-span-2">ELK stack</p>
                 <p className="skill col-span-3 lg:col-span-3">K8s</p>
                 <p className="skill col-span-5 lg:col-span-1">etc.</p>
-                <p className="skill-link col-span-6 lg:col-span-3 flex flex-row justify-center items-center">
+                <a href="https://linkedin.com/in/aperaverzeu" target="_blank"
+                   className="link skill-linkedin col-span-6 lg:col-span-3 flex flex-row justify-center items-center">
                     <i className="bi bi-linkedin text-3xl text-center w-1/2"/>
                     <p className="text-start w-full lg:mr-6">more on LinkedIn</p>
-                </p>
+                </a>
             </div>
         </div>
     );

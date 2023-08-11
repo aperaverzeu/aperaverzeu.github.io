@@ -2,8 +2,7 @@ export default function Header() {
     return (
         <div className="flex flex-col space-y-4">
             <div className="flex flex-row space-x-8">
-                <img className="w-24 h-24 lg:w-[19rem] lg:h-[22rem] rounded-3xl object-cover"
-                     src="/avatar.png" alt="avatar image"/>
+                <img className="avatar" src="/avatar.png" alt="avatar image"/>
                 <div className="flex flex-col space-y-1 lg:space-y-7 self-center">
                     <p className="text-2xl lg:text-5xl leading-tight font-medium">Aliaksei (Leszek) Peraverzeu</p>
                     <p className="text-xs lg:text-xl">Java Software Engineer. 21 years👋🏻</p>

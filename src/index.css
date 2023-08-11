@@ -12,11 +12,23 @@ body {
     @apply w-80 lg:w-[62.5rem];
 }
 
-.skill {
-    @apply p-2.5 text-center rounded-2xl border border-stone-50 lg:hover:bg-stone-50 lg:hover:text-[#2964C2] shadow backdrop-blur-sm font-medium lg:font-normal;
+.heading {
+    @apply text-2xl lg:text-[2.5rem] font-semibold my-6 lg:my-16;
 }
 
-.skill-link {
+.heading-contacts {
+    @apply text-2xl lg:text-[2.5rem] font-semibold mt-6 lg:mt-16 lg:mb-2;
+}
+
+.avatar {
+    @apply w-24 h-24 lg:w-[19rem] lg:h-[22rem] rounded-3xl object-cover;
+}
+
+.skill {
+    @apply p-2.5 text-center rounded-2xl border border-stone-50 shadow backdrop-blur-sm font-medium lg:font-normal;
+}
+
+.skill-linkedin {
     @apply p-1.5 lg:p-2 text-center rounded-2xl border border-stone-50 shadow backdrop-blur-sm font-medium lg:font-normal;
 }
 
@@ -24,10 +36,10 @@ body {
     @apply flex flex-col space-y-2 lg:space-y-4 p-3 lg:p-10 lg:w-[50rem] rounded-2xl border border-stone-50 shadow backdrop-blur-sm font-normal text-xs lg:text-xl;
 }
 
-.heading {
-    @apply text-2xl lg:text-[2.5rem] font-semibold my-6 lg:my-16;
+.link {
+    @apply lg:hover:bg-stone-50 lg:hover:text-[#2964C2];
 }
 
-.heading-contacts {
-    @apply text-2xl lg:text-[2.5rem] font-semibold mt-6 lg:mt-16 lg:mb-2;
+.link-github {
+    @apply lg:hover:bg-stone-50 lg:hover:text-black;
 }
