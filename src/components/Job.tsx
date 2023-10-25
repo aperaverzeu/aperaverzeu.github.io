@@ -6,7 +6,7 @@ export default function Job() {
                 <div className="job">
                     <div className="flex flex-row justify-between">
                         <p className="self-center text-xl lg:text-4xl font-medium">ObjectStyle, LLC.</p>
-                        <p className="self-center lg:text-2xl">10.2022 - present</p>
+                        <p className="self-center lg:text-2xl">10.2022 - 11.2023</p>
                     </div>
                     <p>Java Software Engineer</p>
                     <p className="text-justify">
