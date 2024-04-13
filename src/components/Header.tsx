@@ -1,3 +1,5 @@
+const years: number = new Date().getFullYear() - new Date(2002, 2, 25).getFullYear();
+
 export default function Header() {
     return (
         <div className="flex flex-col space-y-4">
@@ -5,7 +7,7 @@ export default function Header() {
                 <img className="avatar" src="/avatar.png" alt="avatar image"/>
                 <div className="flex flex-col space-y-1 lg:space-y-7 self-center">
                     <p className="text-2xl lg:text-5xl leading-tight font-medium">Aliaksei (Leszek) Peraverzeu</p>
-                    <p className="text-xs lg:text-xl">Java Software Engineer. 21 years👋🏻</p>
+                    <p className="text-xs lg:text-xl">Java Software Engineer. {years} years👋🏻</p>
                     <div className="text-justify hidden lg:block text-2xl">
                         <p>
                             I am BSc in Computer Science and specialize on development complex information systems.
