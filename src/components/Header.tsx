@@ -6,7 +6,7 @@ export default function Header() {
             <div className="flex flex-row space-x-8">
                 <img className="avatar" src="/avatar.png" alt="avatar image"/>
                 <div className="flex flex-col space-y-1 lg:space-y-7 self-center">
-                    <p className="text-2xl lg:text-5xl leading-tight font-medium">Aliaksei (Leszek) Peraverzeu</p>
+                    <p className="text-2xl lg:text-5xl leading-tight font-medium">Aliaksei Peraverzeu</p>
                     <p className="text-xs lg:text-xl">Java Software Engineer. {years} years👋🏻</p>
                     <div className="text-justify hidden lg:block text-2xl">
                         <p>
