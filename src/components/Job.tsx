@@ -5,6 +5,18 @@ export default function Job() {
             <div className="flex flex-col space-y-4 lg:space-y-12">
                 <div className="job">
                     <div className="flex flex-row justify-between">
+                        <p className="self-center text-xl lg:text-4xl font-medium">Gap Year</p>
+                        <p className="self-center lg:text-2xl">11.2023 - 11.2024</p>
+                    </div>
+                    <p>Curious explorer</p>
+                    <p className="text-justify">
+                        I spent my gap year exploring new horizons and gaining valuable life experiences.
+                        It was a time of personal growth, where I traveled around the world,
+                        engaged in volunteering, and discovered more about my passions and future aspirations.
+                    </p>
+                </div>
+                <div className="job">
+                    <div className="flex flex-row justify-between">
                         <p className="self-center text-xl lg:text-4xl font-medium">ObjectStyle, LLC.</p>
                         <p className="self-center lg:text-2xl">10.2022 - 11.2023</p>
                     </div>
