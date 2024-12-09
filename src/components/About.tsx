@@ -5,11 +5,11 @@ export default function About() {
             <div className="flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-20 text-justify">
                 <div className="flex flex-col space-y-3 lg:space-y-10 lg:w-[28rem]">
                     <p>
-                        I like cycling, enjoy creating music and writing science-like article.
+                        I like cycling, enjoy creating music and writing science articles.
                     </p>
                     <p>
                         I am a big fan of linguistic and already know a couple of languages such as English,
-                        Polish, Czech, Ukrainian and I wanna learn Chinese, and German.
+                        Polish, Czech and I wanna learn Chinese, and German.
                     </p>
                 </div>
                 <div className="flex flex-col space-y-3 lg:w-[28rem]">
